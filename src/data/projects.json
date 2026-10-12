@@ -1,0 +1,274 @@
+[
+  {
+    "id": "mbgh",
+    "status": "production",
+    "category": {
+      "es": "Cliente",
+      "en": "Client"
+    },
+    "period": {
+      "es": "2025 – presente",
+      "en": "2025 – present"
+    },
+    "title": {
+      "es": "MBGH Luxury Cabinetry: sitio web y CRM",
+      "en": "MBGH Luxury Cabinetry: website and CRM"
+    },
+    "summary": {
+      "es": "Sitio bilingüe y CRM a medida para una empresa de gabinetes de lujo que trabaja con contratistas, constructoras y diseñadores en Florida.",
+      "en": "Bilingual website and custom CRM for a luxury cabinetry company that works with contractors, builders and designers in Florida."
+    },
+    "problem": {
+      "es": "La empresa no tenía presencia digital ni forma de captar clientes o gestionar ventas en línea. Necesitaba recibir solicitudes de cotización con planos confidenciales y que dueños, vendedores y marketing trabajaran cada uno con sus propios permisos.",
+      "en": "The company had no digital presence and no way to win clients or manage sales online. It needed to receive quote requests with confidential blueprints, and owners, sales and marketing each had to work with their own permissions."
+    },
+    "solution": {
+      "es": [
+        "API REST con Django REST Framework y frontend en React, mobile-first y bilingüe.",
+        "Captación de leads con planos en PDF validados y guardados fuera de la carpeta pública.",
+        "CRM con 5 roles y permisos por acción, todo denegado por defecto.",
+        "Reseñas con aprobación previa, honeypot y traducción automática en el propio servidor.",
+        "Despliegue en VPS con Nginx, Gunicorn, PostgreSQL, SSL y firewall."
+      ],
+      "en": [
+        "REST API with Django REST Framework and a mobile-first, bilingual React frontend.",
+        "Lead capture with validated PDF blueprints stored outside the public folder.",
+        "CRM with 5 roles and per-action permissions, deny by default.",
+        "Reviews with prior approval, a honeypot and on-server machine translation.",
+        "VPS deployment with Nginx, Gunicorn, PostgreSQL, SSL and a firewall."
+      ]
+    },
+    "results": {
+      "es": [
+        "En producción con HTTPS desde el 11 de septiembre de 2026.",
+        "75 tests automatizados y 0 vulnerabilidades conocidas en dependencias tras una auditoría de 27 hallazgos.",
+        "Traducción de reseñas en 0,3–0,9 s por comentario, sin costo de API y sin que los textos salgan del servidor."
+      ],
+      "en": [
+        "In production over HTTPS since September 11, 2026.",
+        "75 automated tests and 0 known dependency vulnerabilities after a 27-finding audit.",
+        "Review translation in 0.3–0.9 s per comment, with no API cost and without texts leaving the server."
+      ]
+    },
+    "role": {
+      "es": "Desarrollador full-stack único",
+      "en": "Sole full-stack developer"
+    },
+    "stack": [
+      "Django",
+      "Django REST Framework",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Nginx",
+      "Gunicorn",
+      "CTranslate2"
+    ],
+    "links": {
+      "live": "https://mbghluxurycabinetry.com",
+      "repo": null
+    },
+    "badges": [],
+    "images": []
+  },
+  {
+    "id": "pizarra",
+    "status": "completed",
+    "category": {
+      "es": "Proyecto de tesis",
+      "en": "Thesis project"
+    },
+    "period": null,
+    "title": {
+      "es": "Pizarra: gestión ágil de proyectos offline-first",
+      "en": "Pizarra: offline-first agile project management"
+    },
+    "summary": {
+      "es": "Plataforma web para la empresa Código Creativo que centraliza la gestión de proyectos de software y sigue funcionando sin conexión.",
+      "en": "Web platform for the company Código Creativo that centralizes software project management and keeps working offline."
+    },
+    "problem": {
+      "es": "El equipo gestionaba sus proyectos con hojas de cálculo, chats y herramientas externas que exigían conexión permanente. Con cortes frecuentes de Internet, la información quedaba dispersa y había que consolidarla a mano.",
+      "en": "The team managed projects with spreadsheets, chats and external tools that required a constant connection. With frequent Internet outages, information was scattered and had to be consolidated by hand."
+    },
+    "solution": {
+      "es": [
+        "Tableros Kanban, sprints, gráficos burndown, integración con Git y auditoría en una sola plataforma.",
+        "Trabajo sin conexión con Service Worker e IndexedDB, y sincronización posterior sin pérdida de datos.",
+        "Permisos por roles validados en cada operación."
+      ],
+      "en": [
+        "Kanban boards, sprints, burndown charts, Git integration and auditing in a single platform.",
+        "Offline work with a Service Worker and IndexedDB, with later sync and no data loss.",
+        "Role-based permissions checked on every operation."
+      ]
+    },
+    "results": {
+      "es": [
+        "Lotes de 100 operaciones sincronizados en menos de 1 s.",
+        "Consultas por petición reducidas de 428 a 11; el tablero responde en menos de 2 s con 25 usuarios simultáneos.",
+        "Permisos de 6 roles validados en las 30 combinaciones probadas, todo sobre software libre."
+      ],
+      "en": [
+        "Batches of 100 operations synced in under 1 s.",
+        "Queries per request reduced from 428 to 11; the board responds in under 2 s with 25 concurrent users.",
+        "Permissions for 6 roles validated across all 30 tested combinations, entirely on open-source software."
+      ]
+    },
+    "role": {
+      "es": "Desarrollo full-stack completo",
+      "en": "End-to-end full-stack development"
+    },
+    "stack": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Celery",
+      "Redis",
+      "Service Worker",
+      "IndexedDB",
+      "Tailwind CSS"
+    ],
+    "links": {
+      "live": null,
+      "repo": null
+    },
+    "badges": [
+      {
+        "es": "Repositorio privado",
+        "en": "Private repository",
+        "icon": "lock"
+      }
+    ],
+    "images": [
+      {
+        "src800": "/projects/pizarra/pizarra-01-tablero-kanban-800.webp",
+        "src1600": "/projects/pizarra/pizarra-01-tablero-kanban-1600.webp",
+        "width": 1600,
+        "height": 937,
+        "alt": {
+          "es": "Tablero Kanban de un proyecto con datos de demostración",
+          "en": "Project Kanban board with demo data"
+        }
+      },
+      {
+        "src800": "/projects/pizarra/pizarra-05-kanban-sin-conexion-800.webp",
+        "src1600": "/projects/pizarra/pizarra-05-kanban-sin-conexion-1600.webp",
+        "width": 1600,
+        "height": 937,
+        "alt": {
+          "es": "Tarjeta movida sin conexión, marcada como pendiente de sincronizar",
+          "en": "Card moved while offline, marked as pending sync"
+        }
+      },
+      {
+        "src800": "/projects/pizarra/pizarra-02-sprint-burndown-800.webp",
+        "src1600": "/projects/pizarra/pizarra-02-sprint-burndown-1600.webp",
+        "width": 1600,
+        "height": 1101,
+        "alt": {
+          "es": "Detalle de un sprint con el gráfico de trabajo pendiente (burndown)",
+          "en": "Sprint detail with the burndown chart"
+        }
+      },
+      {
+        "src800": "/projects/pizarra/pizarra-03-equipo-roles-800.webp",
+        "src1600": "/projects/pizarra/pizarra-03-equipo-roles-1600.webp",
+        "width": 1600,
+        "height": 937,
+        "alt": {
+          "es": "Gestión de los miembros de un proyecto y de sus roles",
+          "en": "Project member and role management"
+        }
+      },
+      {
+        "src800": "/projects/pizarra/pizarra-04-control-permisos-800.webp",
+        "src1600": "/projects/pizarra/pizarra-04-control-permisos-1600.webp",
+        "width": 1600,
+        "height": 937,
+        "alt": {
+          "es": "Aviso a un usuario de solo lectura que intenta crear una tarea",
+          "en": "Notice shown to a read-only user who tries to create a task"
+        }
+      },
+      {
+        "src800": "/projects/pizarra/pizarra-06-pagina-sin-conexion-800.webp",
+        "src1600": "/projects/pizarra/pizarra-06-pagina-sin-conexion-1600.webp",
+        "width": 1600,
+        "height": 937,
+        "alt": {
+          "es": "Página de contingencia que se muestra cuando no hay conexión",
+          "en": "Fallback page shown when there is no connection"
+        }
+      },
+      {
+        "src800": "/projects/pizarra/pizarra-07-arquitectura-800.webp",
+        "src1600": "/projects/pizarra/pizarra-07-arquitectura-1600.webp",
+        "width": 1600,
+        "height": 961,
+        "alt": {
+          "es": "Arquitectura en capas de la plataforma",
+          "en": "Layered architecture of the platform"
+        }
+      },
+      {
+        "src800": "/projects/pizarra/pizarra-08-rendimiento-p95-800.webp",
+        "src1600": "/projects/pizarra/pizarra-08-rendimiento-p95-1600.webp",
+        "width": 1600,
+        "height": 927,
+        "alt": {
+          "es": "Percentil 95 del tiempo de respuesta según la cantidad de usuarios simultáneos",
+          "en": "95th percentile response time by number of concurrent users"
+        }
+      }
+    ]
+  },
+  {
+    "id": "podcast",
+    "status": "in-development",
+    "category": {
+      "es": "Contenido digital",
+      "en": "Digital content"
+    },
+    "period": {
+      "es": "Desde 06/2026",
+      "en": "Since 06/2026"
+    },
+    "title": {
+      "es": "Videopodcast “1+1=1”",
+      "en": "“1+1=1” video podcast"
+    },
+    "summary": {
+      "es": "Videopodcast enfocado en inclusión y derechos de personas con discapacidad, con humor directo y debate social. Lo cocreo y copresentaré junto a Daylín Valdés Chong.",
+      "en": "A video podcast about the inclusion and rights of people with disabilities, with straightforward humor and social debate. I co-created it and will co-host it with Daylín Valdés Chong."
+    },
+    "problem": null,
+    "solution": {
+      "es": [
+        "Redacté la propuesta presentada a un programa internacional de financiamiento.",
+        "Plan de producción de 12 meses y presupuesto de USD 14,000 en 7 partidas.",
+        "Estrategia multiplataforma: episodios en YouTube y piezas cortas para Instagram y Facebook, pensadas para audiencias con poca conectividad.",
+        "Seré responsable de la edición, la postproducción y la distribución digital."
+      ],
+      "en": [
+        "Wrote the proposal submitted to an international funding program.",
+        "12-month production plan and a USD 14,000 budget across 7 line items.",
+        "Multi-platform strategy: full episodes on YouTube and short pieces for Instagram and Facebook, designed for low-connectivity audiences.",
+        "I will be responsible for editing, post-production and digital distribution."
+      ]
+    },
+    "results": null,
+    "role": {
+      "es": "Cocreador y copresentador",
+      "en": "Co-creator and co-host"
+    },
+    "stack": [],
+    "links": {
+      "live": null,
+      "repo": null
+    },
+    "badges": [],
+    "images": []
+  }
+]

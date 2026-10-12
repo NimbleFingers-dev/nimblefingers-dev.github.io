@@ -1,0 +1,71 @@
+{
+  "name": "Jonathan Quintana Caro",
+  "alias": "NimbleFingers",
+  "role": {
+    "es": "Desarrollador Full-Stack",
+    "en": "Full-Stack Developer"
+  },
+  "headline": {
+    "es": "Construyo aplicaciones web completas con Python, Django y React: del modelo de datos al servidor en producción.",
+    "en": "I build complete web applications with Python, Django and React, from the data model to the production server."
+  },
+  "tagline": {
+    "es": "Tecnología con sentido humano",
+    "en": "Technology with a human touch"
+  },
+  "location": {
+    "es": "La Habana, Cuba · Disponible para trabajo remoto",
+    "en": "Havana, Cuba · Available for remote work"
+  },
+  "email": "jonathan.quintana.caro@gmail.com",
+  "phone": "+53 5841 7973",
+  "whatsapp": "5358417973",
+  "links": {
+    "github": "https://github.com/ElCrack01-CPU",
+    "organization": "https://github.com/NimbleFingers-dev",
+    "linkedin": "https://www.linkedin.com/in/jonathan-quintana-caro-8a6a03332"
+  },
+  "cv": {
+    "es": "/cv/Jonathan-Quintana-Caro-CV.pdf",
+    "en": "/cv/Jonathan-Quintana-Caro-CV.pdf"
+  },
+  "cvLanguage": {
+    "es": "es",
+    "en": "es"
+  },
+  "about": {
+    "es": [
+      "Soy desarrollador full-stack y vivo en La Habana. Desde 2025 trabajo de forma remota para MBGH Luxury Cabinetry, una empresa de Florida, donde construí como único desarrollador su sitio bilingüe y un CRM a medida que hoy está en producción.",
+      "Me importa que el software funcione en condiciones reales: con conexión inestable, con usuarios que no son técnicos y con datos que hay que proteger. Por eso trabajo la seguridad, el rendimiento y las pruebas desde el inicio del proyecto, no al final.",
+      "Además de la informática, tengo formación como terapeuta de parejas y pasé más de dos años en atención al cliente, con unas 100 personas al día. De ahí viene mi forma de trabajar: entender bien el problema antes de proponer la solución y explicar lo técnico en palabras simples.",
+      "Estudio Ingeniería en Informática en la CUJAE. La defensa de mi tesis está prevista para febrero de 2027."
+    ],
+    "en": [
+      "I'm a full-stack developer based in Havana, Cuba. Since 2025 I've worked remotely for MBGH Luxury Cabinetry, a Florida company, where I built, as the sole developer, their bilingual website and a custom CRM that is now in production.",
+      "I care about software that works in real conditions: unstable connections, non-technical users and data that must be protected. That's why I handle security, performance and testing from the start of a project, not at the end.",
+      "Beyond software, I'm trained as a couples therapist and spent more than two years in customer service, assisting around 100 people a day. That shapes how I work: I make sure I understand the problem before proposing a solution, and I explain technical topics in plain language.",
+      "I'm studying Computer Engineering at CUJAE (Technological University of Havana). My thesis defense is scheduled for February 2027."
+    ]
+  },
+  "education": [
+    {
+      "degree": {
+        "es": "Ingeniería en Informática",
+        "en": "Computer Engineering"
+      },
+      "institution": "Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE)",
+      "period": {
+        "es": "2018 – presente · Graduación prevista: 07/2027",
+        "en": "2018 – present · Expected graduation: 07/2027"
+      }
+    }
+  ],
+  "courses": {
+    "es": "Cursos en Udemy: Python, Django, React y JavaScript.",
+    "en": "Udemy courses: Python, Django, React and JavaScript."
+  },
+  "languages": [
+    { "es": "Español (nativo)", "en": "Spanish (native)" },
+    { "es": "Inglés (intermedio)", "en": "English (intermediate)" }
+  ]
+}

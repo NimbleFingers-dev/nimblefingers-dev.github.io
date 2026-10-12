@@ -1,0 +1,109 @@
+[
+  {
+    "id": "mbgh",
+    "role": { "es": "Full-Stack Developer", "en": "Full-Stack Developer" },
+    "company": "MBGH Luxury Cabinetry",
+    "url": "https://mbghluxurycabinetry.com",
+    "location": { "es": "Panama City Beach, Florida · Remoto", "en": "Panama City Beach, Florida · Remote" },
+    "start": "2025-02",
+    "end": null,
+    "highlights": {
+      "es": [
+        "Desarrollé, como único desarrollador, el sitio web bilingüe (inglés/español) y un CRM a medida. Está en producción con HTTPS desde 09/2026.",
+        "Construí la captación de leads con carga de planos en PDF validada por extensión, tamaño y firma del archivo, con almacenamiento privado y descarga solo para usuarios con permiso.",
+        "Implementé un control de acceso con 5 roles y permisos por acción (todo denegado por defecto), invalidación de sesión al desactivar usuarios y cierre por inactividad sincronizado entre pestañas.",
+        "Desarrollé un sistema de reseñas con cola de aprobación y filtro anti-bots (honeypot), y traducción automática inglés↔español en el propio servidor: de 0,3 a 0,9 s por comentario y sin costo de API.",
+        "Realicé una auditoría de seguridad con 27 hallazgos (17 en el código y 10 en el servidor) y apliqué las correcciones. Cerró con 0 vulnerabilidades conocidas en dependencias y 75 tests automatizados pasando.",
+        "Configuré y desplegué el VPS (Ubuntu, Nginx, Gunicorn con systemd, Let's Encrypt, UFW) y apliqué SEO técnico con datos estructurados JSON-LD y metadatos en ambos idiomas."
+      ],
+      "en": [
+        "Built, as the sole developer, the bilingual (English/Spanish) website and a custom CRM. In production over HTTPS since 09/2026.",
+        "Built lead capture with PDF blueprint uploads validated by extension, size and file signature, stored privately and downloadable only by authorized users.",
+        "Implemented access control with 5 roles and per-action permissions (deny by default), session invalidation when users are deactivated, and inactivity logout synced across tabs.",
+        "Developed a review system with an approval queue and a honeypot anti-bot filter, plus on-server English↔Spanish machine translation: 0.3 to 0.9 s per comment with no API cost.",
+        "Ran a security audit with 27 findings (17 in code, 10 on the server) and applied the fixes. It closed with 0 known dependency vulnerabilities and 75 automated tests passing.",
+        "Configured and deployed the VPS (Ubuntu, Nginx, Gunicorn with systemd, Let's Encrypt, UFW) and applied technical SEO with JSON-LD structured data and metadata in both languages."
+      ]
+    },
+    "tech": ["Python", "Django", "Django REST Framework", "React", "Vite", "Tailwind CSS", "PostgreSQL", "Nginx", "Linux"]
+  },
+  {
+    "id": "lennon",
+    "role": { "es": "Técnico de Servicios Digitales y Atención al Cliente", "en": "Digital Services & Customer Service Technician" },
+    "company": "Lennon'Studios",
+    "url": null,
+    "location": { "es": "La Habana, Cuba · Presencial", "en": "Havana, Cuba · On-site" },
+    "start": "2022-10",
+    "end": "2025-02",
+    "highlights": {
+      "es": [
+        "Atendí un promedio de 100 clientes diarios, identificando sus necesidades y entregando el servicio de forma rápida y precisa.",
+        "Gestioné la transferencia y organización de contenido multimedia en distintos dispositivos de almacenamiento.",
+        "Edité, formateé e imprimí documentos según las especificaciones de cada cliente."
+      ],
+      "en": [
+        "Served an average of 100 customers a day, identifying their needs and delivering the service quickly and accurately.",
+        "Managed the transfer and organization of multimedia content across different storage devices.",
+        "Edited, formatted and printed documents to each customer's specifications."
+      ]
+    },
+    "tech": []
+  },
+  {
+    "id": "lacuna",
+    "role": { "es": "Editor de Foto y Video", "en": "Photo & Video Editor" },
+    "company": "Lacuna Salón & Spa",
+    "url": null,
+    "location": { "es": "Hialeah, Florida · Remoto", "en": "Hialeah, Florida · Remote" },
+    "start": "2022-07",
+    "end": "2022-09",
+    "highlights": {
+      "es": [
+        "Edité imágenes en Photoshop y produje en Filmora un video del portafolio de trabajos del salón, que se proyecta a los clientes en el local."
+      ],
+      "en": [
+        "Edited images in Photoshop and produced a video of the salon's work portfolio in Filmora, shown to customers on-site."
+      ]
+    },
+    "tech": ["Photoshop", "Filmora"]
+  },
+  {
+    "id": "cid",
+    "role": { "es": "Junior Developer", "en": "Junior Developer" },
+    "company": "CID-DCMTRANS",
+    "url": null,
+    "location": { "es": "La Habana, Cuba · Remoto", "en": "Havana, Cuba · Remote" },
+    "start": "2021-09",
+    "end": "2022-04",
+    "highlights": {
+      "es": [
+        "Desarrollé con Drupal un sitio web informativo para la red interna de la empresa, que centralizó la documentación de todas las direcciones.",
+        "Mejoré la comunicación entre direcciones: el personal podía consultar decisiones y documentos actualizados sin pedirlos por otras vías."
+      ],
+      "en": [
+        "Built an informational website with Drupal for the company's internal network, centralizing documentation from every department.",
+        "Improved communication between departments: staff could look up current decisions and documents without requesting them through other channels."
+      ]
+    },
+    "tech": ["Drupal"]
+  },
+  {
+    "id": "voluntariado",
+    "type": "volunteer",
+    "role": { "es": "Formador de voluntarios", "en": "Volunteer Trainer" },
+    "company": { "es": "Organización comunitaria", "en": "Community organization" },
+    "url": null,
+    "location": { "es": "La Habana, Cuba", "en": "Havana, Cuba" },
+    "start": null,
+    "end": null,
+    "highlights": {
+      "es": [
+        "Enseñé a voluntarios sin experiencia técnica a operar los equipos de audio y video, con una guía paso a paso que preparé; las reuniones dejaron de depender de una sola persona."
+      ],
+      "en": [
+        "Trained volunteers with no technical background to operate audio and video equipment, using a step-by-step guide I wrote; meetings no longer depended on a single person."
+      ]
+    },
+    "tech": []
+  }
+]

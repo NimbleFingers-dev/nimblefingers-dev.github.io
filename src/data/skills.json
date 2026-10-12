@@ -1,0 +1,49 @@
+[
+  {
+    "id": "backend",
+    "title": { "es": "Backend", "en": "Backend" },
+    "items": ["Python", "Django", "Django REST Framework", "APIs REST", "PostgreSQL"]
+  },
+  {
+    "id": "frontend",
+    "title": { "es": "Frontend", "en": "Frontend" },
+    "items": ["React", "Vite", "JavaScript", "Tailwind CSS", "HTML", "CSS", "react-i18next"]
+  },
+  {
+    "id": "devops",
+    "title": { "es": "Servidores y despliegue", "en": "Servers & deployment" },
+    "items": ["Linux (Ubuntu)", "Nginx", "Gunicorn", "VPS", "Let's Encrypt (SSL)", "UFW"]
+  },
+  {
+    "id": "security",
+    "title": { "es": "Seguridad y calidad", "en": "Security & quality" },
+    "items": [
+      { "es": "Autenticación por token", "en": "Token authentication" },
+      { "es": "Control de acceso por roles", "en": "Role-based access control" },
+      { "es": "Límite de intentos", "en": "Rate limiting" },
+      "pip-audit",
+      "npm audit",
+      { "es": "Tests automatizados", "en": "Automated tests" }
+    ]
+  },
+  {
+    "id": "tools",
+    "title": { "es": "Herramientas", "en": "Tools" },
+    "items": ["Git", "GitHub", "Postman", "Google Analytics 4", { "es": "SEO técnico (JSON-LD)", "en": "Technical SEO (JSON-LD)" }, "WordPress", "Drupal"]
+  },
+  {
+    "id": "media",
+    "title": { "es": "Multimedia y ofimática", "en": "Media & office" },
+    "items": ["Photoshop", "Filmora", "Camtasia Studio", "Excel", "Microsoft Project", "Visio"]
+  },
+  {
+    "id": "people",
+    "title": { "es": "Habilidades humanas", "en": "People skills" },
+    "items": [
+      { "es": "Escucha activa", "en": "Active listening" },
+      { "es": "Explicar lo técnico a personas no técnicas", "en": "Explaining technical topics to non-technical people" },
+      { "es": "Mediación", "en": "Mediation" },
+      { "es": "Hablar en público", "en": "Public speaking" }
+    ]
+  }
+]

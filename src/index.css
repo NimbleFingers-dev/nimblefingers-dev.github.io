@@ -1,0 +1,118 @@
+@import 'tailwindcss';
+
+/* Modo oscuro controlado por la clase .dark en <html> (selector manual + preferencia del sistema). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  Tokens de marca (Tailwind v4 los declara en CSS con @theme; equivalen a tailwind.config).
+  Cada color semántico apunta a una variable que cambia entre modo claro y oscuro.
+*/
+@theme {
+  --font-sans: 'Sora', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --color-navy-950: #0f1a2b;
+  --color-navy-900: #1b2a41;
+  --color-navy-700: #2c3e5a;
+  --color-slate-ink: #4a5568;
+  --color-mist-50: #f4f6f8;
+  --color-mist-200: #e6eaf0;
+  --color-mist-300: #c9d1dc;
+  --color-mist-400: #b8c2d0;
+  --color-amber-brand: #f4a340;
+  --color-amber-deep: #a85e0f;
+
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-on-accent: var(--on-accent);
+  --color-chip: var(--chip);
+}
+
+:root {
+  --page: #f4f6f8;
+  --surface: #ffffff;
+  --ink: #1b2a41;
+  --muted: #4a5568;
+  --line: #d5dbe3;
+  --accent: #f4a340;
+  --accent-strong: #a85e0f;
+  --on-accent: #1b2a41;
+  --chip: #e6eaf0;
+  color-scheme: light;
+}
+
+.dark {
+  --page: #0f1a2b;
+  --surface: #1b2a41;
+  --ink: #f4f6f8;
+  --muted: #b8c2d0;
+  --line: #2c3e5a;
+  --accent: #f4a340;
+  --accent-strong: #f4a340;
+  --on-accent: #1b2a41;
+  --chip: #24354f;
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-page text-ink font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--on-accent);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+}
+
+@layer components {
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 600ms ease,
+      transform 600ms ease;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal,
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

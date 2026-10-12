@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nimblefingers-dev.github.io/sitemap.xml
