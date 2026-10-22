@@ -28,16 +28,16 @@ export default function Logo({ className = 'h-16 w-24', title }) {
         strokeWidth="9"
       />
       <g stroke="currentColor" strokeWidth="4.5">
-        <path d="M97 99 H103 V90" />
-        <path d="M108 85 H114 V76" />
-        <path d="M119 71 H125 V62" />
+        <path d="M100 99 H106 V90" />
+        <path d="M111 85 H117 V76" />
+        <path d="M122 71 H128 V62" />
       </g>
-      <g transform="translate(108 43) rotate(-48)" stroke="var(--accent)" strokeWidth="4.5">
+      <g transform="translate(111 43) rotate(-48)" stroke="var(--accent)" strokeWidth="4.5">
         <path d="M-14 -4 H-3" />
         <path d="M-14 4 H-3" />
         <path d="M2 -9 L10 0 L2 9" />
       </g>
-      <g transform="translate(3 0)" stroke="var(--accent)">
+      <g transform="translate(7 0)" stroke="var(--accent)">
         <circle cx="72" cy="29" r="5" strokeWidth="4.5" />
         <g strokeWidth="5.5">
           <path d="M58 60 L67 42" />
