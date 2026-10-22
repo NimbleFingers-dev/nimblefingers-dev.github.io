@@ -1,4 +1,6 @@
-// Símbolo de marca: llaves de código con una persona al centro.
+// Símbolo de marca, versión compacta para tamaños pequeños (barra lateral, 44 px).
+// Llaves { } y escalera _| en el color del texto; persona en silla de ruedas y flecha => en el acento.
+// El símbolo completo con la rueda (@) está en assets/logo/logo-simbolo.svg y se usa a partir de ~120 px.
 export default function Logo({ className = 'h-10 w-10', title }) {
   const labelled = Boolean(title);
   return (
@@ -10,25 +12,30 @@ export default function Logo({ className = 'h-10 w-10', title }) {
       aria-label={labelled ? title : undefined}
       aria-hidden={labelled ? undefined : 'true'}
       focusable="false"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path
-        d="M44 20 C32 20 32 28 32 38 L32 50 C32 56 28 60 21 60 C28 60 32 64 32 70 L32 82 C32 92 32 100 44 100"
-        fill="none"
+        d="M30 22 C21 22 21 29 21 37 L21 52 C21 57 18 60 13 60 C18 60 21 63 21 68 L21 83 C21 91 21 98 30 98"
         stroke="currentColor"
-        strokeWidth="10"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        strokeWidth="9"
       />
       <path
-        d="M76 20 C88 20 88 28 88 38 L88 50 C88 56 92 60 99 60 C92 60 88 64 88 70 L88 82 C88 92 88 100 76 100"
-        fill="none"
+        d="M90 22 C99 22 99 29 99 37 L99 52 C99 57 102 60 107 60 C102 60 99 63 99 68 L99 83 C99 91 99 98 90 98"
         stroke="currentColor"
-        strokeWidth="10"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        strokeWidth="9"
       />
-      <circle cx="60" cy="46" r="11.5" fill="var(--accent)" />
-      <path d="M41.5 84.5 C41.5 70.5 50 64 60 64 C70 64 78.5 70.5 78.5 84.5 Z" fill="var(--accent)" />
+      <path d="M70 92 H76 V80 H84 V68 H90" stroke="currentColor" strokeWidth="7" />
+      <circle cx="50" cy="32" r="7" fill="var(--accent)" />
+      <path d="M38 62 L46 44" stroke="var(--accent)" strokeWidth="9" />
+      <path d="M38 62 H57 L62 76 H66" stroke="var(--accent)" strokeWidth="9" />
+      <circle cx="44" cy="80" r="14" stroke="var(--accent)" strokeWidth="8" />
+      <g transform="translate(75 41) rotate(-48)" stroke="var(--accent)" strokeWidth="7">
+        <path d="M-7 -4 H3" />
+        <path d="M-7 4 H3" />
+        <path d="M1 -9 L9 0 L1 9" />
+      </g>
     </svg>
   );
 }
