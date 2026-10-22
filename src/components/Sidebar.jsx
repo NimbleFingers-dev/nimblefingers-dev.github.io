@@ -1,7 +1,7 @@
 import profile from '../data/profile.json';
 import { useLanguage } from '../i18n/LanguageContext.jsx';
 import { useActiveSection } from '../hooks/useActiveSection.js';
-import Logo from './Logo.jsx';
+import LogoHorizontal from './LogoHorizontal.jsx';
 import Toolbar from './Toolbar.jsx';
 import { DownloadIcon, GitHubIcon, LinkedInIcon, MailIcon, WhatsAppIcon } from './Icons.jsx';
 
@@ -34,12 +34,9 @@ export default function Sidebar({ theme, onToggleTheme }) {
   return (
     <header className="pt-6 lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[46%] lg:flex-col lg:justify-between lg:py-20">
       <div>
-        <div className="flex items-center justify-between gap-4">
-          <a href="#top" className="inline-flex items-center gap-3 rounded-lg text-ink" aria-label="NimbleFingers">
-            <Logo className="h-11 w-11" />
-            <span className="text-lg font-semibold tracking-tight">
-              Nimble<span className="text-accent-strong">Fingers</span>
-            </span>
+        <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-4">
+          <a href="#top" className="inline-flex rounded-lg text-ink">
+            <LogoHorizontal />
           </a>
           <Toolbar theme={theme} onToggleTheme={onToggleTheme} />
         </div>
