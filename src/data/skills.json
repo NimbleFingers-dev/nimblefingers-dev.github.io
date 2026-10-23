@@ -7,7 +7,7 @@
   {
     "id": "frontend",
     "title": { "es": "Frontend", "en": "Frontend" },
-    "items": ["React", "Vite", "JavaScript", "Tailwind CSS", "HTML", "CSS", "react-i18next"]
+    "items": ["React", "Vite", "JavaScript", "Tailwind CSS", "HTML", "CSS", { "es": "Accesibilidad web (WCAG AA)", "en": "Web accessibility (WCAG AA)" }, "react-i18next"]
   },
   {
     "id": "devops",

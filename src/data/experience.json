@@ -9,7 +9,7 @@
     "end": null,
     "highlights": {
       "es": [
-        "Desarrollé, como único desarrollador, el sitio web bilingüe (inglés/español) y un CRM a medida. Está en producción con HTTPS desde 09/2026.",
+        "Desarrollé, como único desarrollador, el sitio web bilingüe (inglés/español), accesible según WCAG AA, y un CRM a medida. Está en producción con HTTPS desde 09/2026.",
         "Construí la captación de leads con carga de planos en PDF validada por extensión, tamaño y firma del archivo, con almacenamiento privado y descarga solo para usuarios con permiso.",
         "Implementé un control de acceso con 5 roles y permisos por acción (todo denegado por defecto), invalidación de sesión al desactivar usuarios y cierre por inactividad sincronizado entre pestañas.",
         "Desarrollé un sistema de reseñas con cola de aprobación y filtro anti-bots (honeypot), y traducción automática inglés↔español en el propio servidor: de 0,3 a 0,9 s por comentario y sin costo de API.",
@@ -17,7 +17,7 @@
         "Configuré y desplegué el VPS (Ubuntu, Nginx, Gunicorn con systemd, Let's Encrypt, UFW) y apliqué SEO técnico con datos estructurados JSON-LD y metadatos en ambos idiomas."
       ],
       "en": [
-        "Built, as the sole developer, the bilingual (English/Spanish) website and a custom CRM. In production over HTTPS since 09/2026.",
+        "Built, as the sole developer, the bilingual (English/Spanish), WCAG AA–compliant website and a custom CRM. In production over HTTPS since 09/2026.",
         "Built lead capture with PDF blueprint uploads validated by extension, size and file signature, stored privately and downloadable only by authorized users.",
         "Implemented access control with 5 roles and per-action permissions (deny by default), session invalidation when users are deactivated, and inactivity logout synced across tabs.",
         "Developed a review system with an approval queue and a honeypot anti-bot filter, plus on-server English↔Spanish machine translation: 0.3 to 0.9 s per comment with no API cost.",
