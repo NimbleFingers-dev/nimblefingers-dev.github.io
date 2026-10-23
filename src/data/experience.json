@@ -69,23 +69,23 @@
   },
   {
     "id": "cid",
-    "role": { "es": "Junior Developer", "en": "Junior Developer" },
+    "role": { "es": "Desarrollador web", "en": "Web Developer" },
     "company": "CID-DCMTRANS",
     "url": null,
     "location": { "es": "La Habana, Cuba · Remoto", "en": "Havana, Cuba · Remote" },
-    "start": "2021-09",
+    "start": "2019-09",
     "end": "2022-04",
     "highlights": {
       "es": [
-        "Desarrollé con Drupal un sitio web informativo para la red interna de la empresa, que centralizó la documentación de todas las direcciones.",
+        "Desarrollé con Drupal un sitio web informativo para la red interna de la empresa, que centralizó la documentación de todas las direcciones, y después lo migré a WordPress.",
         "Mejoré la comunicación entre direcciones: el personal podía consultar decisiones y documentos actualizados sin pedirlos por otras vías."
       ],
       "en": [
-        "Built an informational website with Drupal for the company's internal network, centralizing documentation from every department.",
+        "Built an informational website with Drupal for the company's internal network, centralizing documentation from every department, and later migrated it to WordPress.",
         "Improved communication between departments: staff could look up current decisions and documents without requesting them through other channels."
       ]
     },
-    "tech": ["Drupal"]
+    "tech": ["Drupal", "WordPress"]
   },
   {
     "id": "voluntariado",
