@@ -1,6 +1,7 @@
-// Símbolo de marca NimbleFingers: { o / _ \ (@) _|_|_| => }
-// Persona en silla de ruedas (rueda = @) frente a una escalera, con una flecha de subida, entre llaves de código.
-// Llaves y escalera usan el color del texto (currentColor); persona y flecha usan el acento de marca.
+// Símbolo de marca NimbleFingers: [ o / _ \ (@) _|_|_| => )
+// Persona en silla de ruedas (rueda = @) frente a una escalera, con una flecha de subida, dentro de un
+// intervalo semiabierto [inicio, límite): el punto de partida está incluido y el límite nunca se alcanza.
+// Corchete, paréntesis y escalera usan el color del texto (currentColor); persona y flecha usan el acento de marca.
 // Proporción 3:2 (lienzo 180x120): dale siempre alto y ancho en esa relación, por ejemplo h-16 w-24.
 export default function Logo({ className = 'h-16 w-24', title }) {
   const labelled = Boolean(title);
@@ -18,12 +19,12 @@ export default function Logo({ className = 'h-16 w-24', title }) {
       strokeLinejoin="round"
     >
       <path
-        d="M44 20 C32 20 32 28 32 38 L32 50 C32 56 28 60 21 60 C28 60 32 64 32 70 L32 82 C32 92 32 100 44 100"
+        d="M45 20 H31 V100 H45"
         stroke="currentColor"
         strokeWidth="9"
       />
       <path
-        d="M136 20 C148 20 148 28 148 38 L148 50 C148 56 152 60 159 60 C152 60 148 64 148 70 L148 82 C148 92 148 100 136 100"
+        d="M135 20 C157 38 157 82 135 100"
         stroke="currentColor"
         strokeWidth="9"
       />
