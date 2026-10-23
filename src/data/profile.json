@@ -36,15 +36,17 @@
   "about": {
     "es": [
       "Soy desarrollador full-stack y vivo en La Habana. Desde 2025 trabajo de forma remota para MBGH Luxury Cabinetry, una empresa de Florida, donde construí como único desarrollador su sitio bilingüe y un CRM a medida que hoy está en producción.",
-      "Me importa que el software funcione en condiciones reales: con conexión inestable, con usuarios que no son técnicos y con datos que hay que proteger. Por eso trabajo la seguridad, el rendimiento y las pruebas desde el inicio del proyecto, no al final.",
+      "Me importa que el software funcione en condiciones reales: con conexión inestable, con usuarios que no son técnicos y con datos que hay que proteger. Uso silla de ruedas desde los 9 años, así que para mí la accesibilidad no es un punto más de una lista de chequeo: sé lo que es encontrarse con una barrera. Por eso trabajo la seguridad, el rendimiento, la accesibilidad y las pruebas desde el inicio del proyecto, no al final.",
       "También trabajé más de dos años en atención al cliente, con unas 100 personas al día. De ahí viene mi forma de trabajar: entender bien el problema antes de proponer la solución y explicar lo técnico en palabras simples.",
-      "Estudio Ingeniería en Informática en la CUJAE. La defensa de mi tesis está prevista para febrero de 2027."
+      "Estudio Ingeniería en Informática en la CUJAE. La defensa de mi tesis está prevista para febrero de 2027.",
+      "La escalera de mi logo resume cómo trabajo: cada escalón es un problema resuelto, y siempre hay uno más."
     ],
     "en": [
       "I'm a full-stack developer based in Havana, Cuba. Since 2025 I've worked remotely for MBGH Luxury Cabinetry, a Florida company, where I built, as the sole developer, their bilingual website and a custom CRM that is now in production.",
-      "I care about software that works in real conditions: unstable connections, non-technical users and data that must be protected. That's why I handle security, performance and testing from the start of a project, not at the end.",
+      "I care about software that works in real conditions: unstable connections, non-technical users and data that must be protected. I've used a wheelchair since I was 9, so accessibility isn't a checklist item for me: I know what it's like to run into a barrier. That's why I handle security, performance, accessibility and testing from the start of a project, not at the end.",
       "I also spent more than two years in customer service, assisting around 100 people a day. That shapes how I work: I make sure I understand the problem before proposing a solution, and I explain technical topics in plain language.",
-      "I'm studying Computer Engineering at CUJAE (Technological University of Havana). My thesis defense is scheduled for February 2027."
+      "I'm studying Computer Engineering at CUJAE (Technological University of Havana). My thesis defense is scheduled for February 2027.",
+      "The staircase in my logo sums up how I work: every step is a problem solved, and there's always one more."
     ]
   },
   "education": [
