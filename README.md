@@ -103,7 +103,7 @@ Cada `push` a `main` ejecuta `.github/workflows/deploy.yml`, que instala depende
 ## Contacto
 
 - Correo: [jonathan.quintana.caro@gmail.com](mailto:jonathan.quintana.caro@gmail.com)
-- LinkedIn: [jonathan-quintana-caro](https://www.linkedin.com/in/jonathan-quintana-caro-8a6a03332)
+- LinkedIn: [jonathan-quintana-caro](https://www.linkedin.com/in/jonathan-quintana-caro)
 - GitHub: [@ElCrack01-CPU](https://github.com/ElCrack01-CPU)
 
 ---

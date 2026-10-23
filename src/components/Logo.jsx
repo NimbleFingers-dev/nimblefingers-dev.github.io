@@ -19,7 +19,7 @@ export default function Logo({ className = 'h-16 w-24', title }) {
       strokeLinejoin="round"
     >
       <path
-        d="M45 20 H31 V100 H45"
+        d="M37 20 H23 V100 H37"
         stroke="currentColor"
         strokeWidth="9"
       />
