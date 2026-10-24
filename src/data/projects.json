@@ -81,8 +81,8 @@
     },
     "period": null,
     "title": {
-      "es": "Pizarra: gestión ágil de proyectos offline-first",
-      "en": "Pizarra: offline-first agile project management"
+      "es": "Plataforma web offline-first para la gestión ágil de proyectos y tareas de desarrollo de software",
+      "en": "Offline-first web platform for the agile management of software development projects and tasks"
     },
     "summary": {
       "es": "Plataforma web para la empresa Código Creativo que centraliza la gestión de proyectos de software y sigue funcionando sin conexión.",
